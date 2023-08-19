@@ -45,7 +45,8 @@ h2 {
     position: absolute;
     font-size: 1.2em;
     right: 30px;
-    top: 20px;
+    top: 50%;
+    transform: translate(0,-50%);
 }
 
 
@@ -150,4 +151,8 @@ h2 {
 
 #btn:focus {
     border: 1px solid #f1c80b;
+}
+.wrapper input::selection{
+    background-color: transparent;
+    color: inherit;
 }
